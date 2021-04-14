@@ -1,0 +1,248 @@
+* {
+	box-sizing: border-box;
+}
+
+
+body {
+	text-align: center;
+	margin: 0;
+
+}
+
+.top-container {
+	padding-top: 100px;
+	position: relative;
+	background-color: #66BFBE;
+	
+}
+
+h1{
+	font-size: 80px;
+
+	color: #c332ba;
+	font-family: 'Niconne', cursive;
+}
+
+h2 {
+	font-size: 50px;
+    font-family:monospace;
+    font-family: 'sacramento', cursive; 
+    color: green; 
+}
+
+.sun {
+	position: absolute;
+	width: 300px;
+	height: 300px;
+	left:0px;
+	top: 0px;
+}
+
+.skill-row {
+	width: 50%;
+	margin:100px auto 150px auto;
+}
+
+.skill-img1 {
+	width: 200px;
+	float:left; 
+
+}
+
+.skill-img2 {
+	width:  200px;
+	float:right;
+}
+
+h3 {
+	font-size: 30px;
+	font-family: monospace;
+	color: green;
+}
+
+
+p {
+	font-size: 20px;
+	font-family: cursive;
+
+}
+
+.bottom-container {
+	background-color: pink;
+	margin-top: 100px;
+	padding-bottom: 10px;
+}
+
+.message {
+	background-color: green;
+	padding:10px;
+}
+
+a {
+	margin: 15px;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#eaf666;
+}
+
+.copyright {
+	font-size: 16px;
+}
+
+
+@media (max-width:700px) {
+
+	
+.top-container {
+	padding-top: 100px;
+	position: relative;
+	background-color: #66BFBE;
+	
+}
+
+h1{
+	font-size: 80px;
+	color: #c332ba;
+	font-family: 'Niconne', cursive;
+}
+
+h2 {
+	font-size: 50px;
+    font-family:monospace;
+    font-family: 'sacramento', cursive; 
+    color: green; 
+}
+
+.sun {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	left:0px;
+	top: 0px;
+}
+
+.land {
+	max-width: 400px;
+}
+
+.skill-row {
+	width: 50%;
+	margin:100px auto 150px auto;
+}
+
+.skill-img1 {
+	width: 100px;
+ 
+
+}
+
+.skill-img2 {
+	width:  100px;
+
+}
+
+h3 {
+	font-size: 30px;
+	font-family: monospace;
+	color: green;
+}
+
+p {
+	font-size: 20px;
+	font-family: cursive;
+	text-align:center ;
+}
+
+.bottom-container {
+	background-color: pink;
+	margin-top: 100px;
+	padding-bottom: 10px;
+}
+
+.message {
+	background-color: green;
+	padding:10px;
+}
+
+a {
+	margin: 15px;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#eaf666;
+}
+
+.copyright {
+	font-size: 16px;
+}
+}
+
+
+@media (max-width:500px) {
+
+	.top-container {
+		padding-top: 100px;
+		position:relative;
+		background-color: #a8ebe9;
+	}
+	
+	h1{
+		font-size: 4rem;
+		color: #c332ba;
+		font-family: 'Niconne', cursive;
+	}
+	
+	h2 {
+		font-size:3.2rem;
+		font-family:monospace;
+		font-family: 'sacramento', cursive; 
+		color: green; 
+		text-align: center;
+	}
+	
+	.sun {
+		position: absolute;
+		max-width: 150px;
+		max-height: 150px;
+		left:0px;
+		top: 0px;
+	}
+	
+	.land {
+		max-width: 300px;
+	}
+	
+	.skill-row {
+		width: 50%;
+	}
+	
+	.skill-img1 {
+		max-width:200px;
+	}
+	
+	.skill-img2 {
+		max-width: 200px;
+	}
+	
+	h3 {
+		font-size: 1.8rem;
+		font-family: monospace;
+		color: rgb(23, 231, 23);
+		text-align:center;
+	}
+	
+	
+	p {
+		font-size: 1.2rem;
+		font-family: cursive;
+	
+	}
+	
+	}
+
+
+
+
